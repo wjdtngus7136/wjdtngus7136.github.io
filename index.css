@@ -1,0 +1,82 @@
+@charset "urf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {line-height: 1.5;
+color: #333;
+background: url(images/나.PNG) no-repeat center;
+transition-property: all;
+transition-duration: 1s,1s;
+
+}
+
+body:hover {
+    background: url(images/나2.PNG)no-repeat center ;
+  
+}
+
+
+#wrap {width: 600px;
+margin: 50px auto 0;}
+
+table {width: 600px;
+    height: 900px;
+border-collapse: collapse;}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    border-bottom: 2px solid black;
+    width: 600px;
+    height: 100px;
+    background-color:#F4EB84;
+    transition-property: width,height;
+    transition-duration: 1s,1s;
+
+}
+h1:hover{background:url(images/골대\ 2.png)no-repeat center;
+    width: 600px;
+    height: 350px;
+
+}
+h1 span {
+    font-size: 15px;
+}
+
+td span{font-size: 20px;
+font-weight: bold;
+width: 300px;
+height: 100px;
+transition-property: width,height;
+transition-duration: 0.1s,1s;}
+
+td span:hover{background: url(images/하트.PNG)no-repeat center;}
+
+tr{ border-bottom: 2px solid black;
+    padding: 10px;
+}
+
+td{font-size: 12px;
+
+}
+
+tr td:nth-of-type(2) {text-align: right;}
+
+.a{padding-bottom: 100px;
+    background: url(images/엠비티아이_txt.png) no-repeat left -30px top 80px;}
+
+.b{padding-bottom: 40px;}
+
+
+
+
+
+
+
+
+
+
